@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(140, 194, 224);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(32, 197, 46);
+  color: rgb(130, 202, 162);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #110747;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #0e0544;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<h3>Joining Form</h3>
+
+<div class="container" >
+<style>
+    div {
+        height: 500px; width:700px;top:50%;right:50%;
+        background: linear-gradient(to top left, #3366ff 0%, #000066 100%)
+    }
+    </style>
+  <form action="/action_page.php" style =color:red ></form>
+    <label for="fname" style =color:red>First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width:500px">
+
+    <label for="lname" style =color:red><br>Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."style="width:500px">
+
+    <label for="Branch" style =color:red><br > Branch</label>
+    &nbsp &nbsp &nbsp  <select id="Branch" name="country" style="width:500px">
+      <option value="Diploma">Diploma</option>
+      <option value="B-Tech">B-Tech</option>
+      <option value="MBA">MBA</option>      
+    </select>
+
+    <label for="subject" style =color:red><br>Comment</label>
+   <br><pre>           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:500px" ></textarea></pre>
+<pre>                                                                    <input type="submit" value="Submit"></pre>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>canteen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>.mySlides {display:none;}
+ </style>
+<body>
+
+<div class="w3-container" style =color:rgb(32, 6, 78)>
+  <h2>Canteen</h2>
+  <p>The food we serve is safe to eat.It prevent from food poisoning.</p>
+</div>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="images/canteen/canteen1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="images/canteen/canteen2.jpg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="images/canteen/canteen1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="images/canteen/canteen2.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+K L Deemed to be University has a spacious canteen with latest equipment and hygienic environment which provides quality food and prompts service and caters to needs of all the students and the staff.
+
+central cafeteria of 1500 Sq.m. is available in the campus. Mini cafes and fast-food centers are available in various blocks.
+
+The canteen is open from 6:30 a.m. to 8:30 p.m. There is a wide variety of North-Indian and South-Indian cuisine and the students enjoy the pleasure of eating during the breaks. Cool aqua water for drinking is available.
+
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>canteen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="canteen1.html"style="width:100%">
+<style>
+.mySlides {display:none;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+</style>
+</head>
+
+<body>
+
+<h2 class="w3-center">canteen</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/canteen/canteen1.jpg" style="width:50%"height="300">
+  <img class="mySlides" src="images/canteen/canteen2.jpg" style="width:50%"height="300">
+  <img class="mySlides" src="images/canteen/canteen1.jpg" style="width:50%"height="300">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+   if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1></h1>      
+    <p>VBEC college has a spacious canteen with latest equipment and hygienic environment which provides quality food and prompts service and caters to needs of all the students and the staff.<br>
+
+      central cafeteria of 1500 Sq.m. is available in the campus. Mini cafes and fast-food centers are available in one blocks.<br>
+      
+      The canteen is open from 9:30 a.m. to 4:30 p.m. There is a wide variety of Indian and chineese cuisine and the students enjoy the pleasure of eating during the breaks. Cool aqua water for drinking is available.<br>
+      </p>
+  </div>
+  </div>
+
+</body>
+</html>
